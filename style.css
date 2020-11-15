@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color:white;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+#profile {
+    height: 200px;
+    width: 100%;
+    display: table;
+    background: linear-gradient(#de371e 0%, #f9e00b 100%);
+}
+
+#bio {
+    background: linear-gradient(#4bf542 0%, #18d0f5 100%)
+}
+
+#work {
+    height: 1000xpx;
+    background: linear-gradient(#de371e 0%, #f9e00b 100%);
+}
+
+.imageclass {
+    width: 100px;
+    bottom: 50px;
+    border-radius: 10px;
+}
+
+.menu {
+    width: 100%;
+    list-style: none;
+    top: 1px;
+    z-index: 10;
+    cursor: pointer;
+    position: fixed;
+    color:floralwhite;
+    background: linear-gradient(#34e00d 0%, #e07e0d 100%);  
+}
+
+.links {
+    float: left;
+    font-size: 20px;
+    font-family: 'Henny Penny', cursive;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    color:floralwhite;
+}
+
+.links:hover {
+    background-color: azure;
+}
+
+.inner {
+    vertical-align: bottom;
+    position: relative;
+    display: table-cell;
+
+}
+
+#inspiration{
+   background: linear-gradient(#4bf542 0%, #18d0f5 100%) 
+}
+
+#contact{
+ background: linear-gradient(#de371e 0%, #f9e00b 100%);  
+}
+
+img{
+    width:50%;
+    transition:transform .2s;
+    border:10px solid #AAAAAA;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+#work iframe{
+    height: 500px;
+}
+
+.contact_1 h3{
+    display:inline;
+}
